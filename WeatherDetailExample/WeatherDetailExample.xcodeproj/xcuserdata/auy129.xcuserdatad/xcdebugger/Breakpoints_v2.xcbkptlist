@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherDetailExample/Client/DarkSkyNetworkClient.swift"
+            timestampString = "579214185.082711"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchWeather(at:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WeatherDetailExample/Detail Screen/Model/DarkSkyWeatherDetailModel.swift"
+            timestampString = "579216858.591475"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "fetchLocalWeather(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WeatherDetailExample.DarkSkyWeatherDetailModel.fetchLocalWeather((WeatherDetailExample.Result&lt;WeatherDetailExample.WeatherDetailDataModel, WeatherDetailExample.FetchWeatherUIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WeatherDetailExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auy129/Documents/codepract/weather/emc-code-a-thon-2019/WeatherDetailExample/WeatherDetailExample/Detail%20Screen/Model/DarkSkyWeatherDetailModel.swift"
+                  timestampString = "579214311.931136"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (WeatherDetailExample.Result&lt;WeatherDetailExample.DarkSkyForecast, WeatherDetailExample.DarkSkyNetworkError&gt;) -&gt; () in WeatherDetailExample.DarkSkyWeatherDetailModel.fetchLocalWeather((WeatherDetailExample.Result&lt;WeatherDetailExample.WeatherDetailDataModel, WeatherDetailExample.FetchWeatherUIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WeatherDetailExample"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/auy129/Documents/codepract/weather/emc-code-a-thon-2019/WeatherDetailExample/WeatherDetailExample/Detail%20Screen/Model/DarkSkyWeatherDetailModel.swift"
+                  timestampString = "579214311.933452"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "82">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

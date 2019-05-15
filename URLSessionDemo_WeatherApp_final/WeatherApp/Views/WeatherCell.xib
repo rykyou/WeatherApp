@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="H60-yh-WcO" customClass="WeatherCell" customModule="WeatherApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="432" height="247"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iN0-l3-epB" userLabel="Container">
+                    <rect key="frame" x="0.0" y="0.0" width="432" height="215"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thunderstorm-day-small" translatesAutoresizingMaskIntoConstraints="NO" id="f6W-Bu-gkz">
+                            <rect key="frame" x="358" y="24" width="50" height="50"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="50" id="1oQ-17-RiM"/>
+                                <constraint firstAttribute="width" constant="50" id="XyC-hS-l7I"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Washington " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="lrp-m0-v9c" userLabel="City Label">
+                            <rect key="frame" x="20" y="35" width="283" height="32"/>
+                            <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="12:37 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Ky-8h-HDz">
+                            <rect key="frame" x="236.5" y="168.5" width="82" height="17"/>
+                            <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="District of Columbia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2TB-3P-eTb" userLabel="CountryLabel">
+                            <rect key="frame" x="20" y="67" width="283" height="17"/>
+                            <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ih8-em-dm4">
+                            <rect key="frame" x="20" y="162" width="111" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="6°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="23o-Jx-dOC">
+                                    <rect key="frame" x="0.0" y="0.0" width="26" height="30"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="68°/56°" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="2hG-PA-Edb">
+                                    <rect key="frame" x="46" y="6.5" width="65" height="17"/>
+                                    <fontDescription key="fontDescription" name="Courier" family="Courier" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="0tU-ix-ZRV">
+                            <rect key="frame" x="161" y="165.5" width="55.5" height="23"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" image="rain-small" translatesAutoresizingMaskIntoConstraints="NO" id="R3s-ms-bV2">
+                                    <rect key="frame" x="0.0" y="0.0" width="23" height="23"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="23" id="311-2I-1DF"/>
+                                        <constraint firstAttribute="width" constant="23" id="Et1-7r-bqU"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="0%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="G5q-qY-tjB">
+                                    <rect key="frame" x="35" y="0.0" width="20.5" height="23"/>
+                                    <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.035294117647058823" green="0.10980392156862745" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="f6W-Bu-gkz" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="24" id="0Xv-eL-gAT"/>
+                        <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="f6W-Bu-gkz" secondAttribute="trailing" constant="24" id="35y-G7-sts"/>
+                        <constraint firstItem="ih8-em-dm4" firstAttribute="leading" secondItem="2TB-3P-eTb" secondAttribute="leading" id="8bd-UT-BIk"/>
+                        <constraint firstItem="4Ky-8h-HDz" firstAttribute="bottom" secondItem="0tU-ix-ZRV" secondAttribute="bottom" constant="-3" id="9T3-Oq-W79"/>
+                        <constraint firstItem="lrp-m0-v9c" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="Lnb-WJ-Gpv"/>
+                        <constraint firstItem="lrp-m0-v9c" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="35" id="O1d-UM-Y9k"/>
+                        <constraint firstItem="f6W-Bu-gkz" firstAttribute="leading" secondItem="lrp-m0-v9c" secondAttribute="trailing" constant="55" id="RlC-Xy-oro"/>
+                        <constraint firstItem="2TB-3P-eTb" firstAttribute="trailing" secondItem="lrp-m0-v9c" secondAttribute="trailing" id="Unw-z5-AnX"/>
+                        <constraint firstItem="0tU-ix-ZRV" firstAttribute="leading" secondItem="2hG-PA-Edb" secondAttribute="trailing" constant="30" id="VGc-Md-tVX"/>
+                        <constraint firstItem="0tU-ix-ZRV" firstAttribute="bottom" secondItem="2hG-PA-Edb" secondAttribute="bottom" constant="3" id="bWe-pT-CIR"/>
+                        <constraint firstItem="2TB-3P-eTb" firstAttribute="leading" secondItem="lrp-m0-v9c" secondAttribute="leading" id="dDZ-d4-YL0"/>
+                        <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="ih8-em-dm4" secondAttribute="bottom" constant="23" id="dn8-1y-0Qt"/>
+                        <constraint firstItem="2TB-3P-eTb" firstAttribute="top" secondItem="lrp-m0-v9c" secondAttribute="bottom" id="mgA-Ds-yis"/>
+                        <constraint firstItem="4Ky-8h-HDz" firstAttribute="leading" secondItem="0tU-ix-ZRV" secondAttribute="trailing" constant="20" id="xnP-je-YPj"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.4431372549" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="leading" secondItem="HYT-nu-SLj" secondAttribute="leading" id="NFD-4j-OSy"/>
+                <constraint firstItem="iN0-l3-epB" firstAttribute="top" secondItem="HYT-nu-SLj" secondAttribute="top" id="YVS-qs-oiy"/>
+                <constraint firstItem="HYT-nu-SLj" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" constant="32" id="isN-Hl-l4a"/>
+                <constraint firstItem="HYT-nu-SLj" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="trailing" id="jbz-lT-jal"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="HYT-nu-SLj"/>
+            <connections>
+                <outlet property="cityLabel" destination="lrp-m0-v9c" id="X5b-ID-pbr"/>
+                <outlet property="container" destination="iN0-l3-epB" id="Yxa-ke-sXh"/>
+                <outlet property="countryLabel" destination="2TB-3P-eTb" id="a61-Df-gCl"/>
+                <outlet property="currentTemperatureLabel" destination="23o-Jx-dOC" id="3m5-ef-wgZ"/>
+                <outlet property="highLowTemperatureLabel" destination="2hG-PA-Edb" id="a1M-ue-VLe"/>
+                <outlet property="icon" destination="f6W-Bu-gkz" id="sLd-nd-Net"/>
+                <outlet property="precipProbabilityLabel" destination="G5q-qY-tjB" id="CaD-Mf-dWT"/>
+                <outlet property="timeLabel" destination="4Ky-8h-HDz" id="OLg-ru-mfJ"/>
+            </connections>
+            <point key="canvasLocation" x="1.6000000000000001" y="126.38680659670166"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="rain-small" width="61" height="58"/>
+        <image name="thunderstorm-day-small" width="52" height="56"/>
+    </resources>
+</document>

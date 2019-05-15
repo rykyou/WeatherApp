@@ -1,0 +1,57 @@
+{
+    "data": [
+        {"latitude": 38.8048356,
+         "longitude": -77.0469214,
+         "city": "Alexandria",
+         "state": "VA",
+         "summary": "Partly Cloudy",
+         "icon": "partly-cloudy-day",
+         "precipProbability": 0,
+         "currentTemperature": 53,
+         "humidity": 0.68,
+         "windSpeed": 2.7,
+         "lowTemperature": 56,
+         "highTemperature": 68
+        },
+        {"latitude": 38.9342776,
+         "longitude": -77.1774801,
+         "city": "Mclean",
+         "state": "VA",
+         "summary": "Partly Cloudy",
+         "icon": "partly-cloudy-day",
+         "precipProbability": 0,
+         "currentTemperature": 76,
+         "humidity": 0.68,
+         "windSpeed": 2.7,
+         "lowTemperature": 64,
+         "highTemperature": 82
+        },
+        {"latitude": 40.7142691,
+         "longitude": -74.0059729,
+         "city": "New York",
+         "state": "NY",
+         "summary": "Foggy Cloudy",
+         "icon": "fog-day",
+         "precipProbability": 0,
+         "currentTemperature": 54,
+         "humidity": 0.68,
+         "windSpeed": 2.7,
+         "lowTemperature": 54,
+         "highTemperature": 59
+        },
+        {"latitude": 37.7749295,
+         "longitude": -122.4194155,
+         "city": "San Francisco",
+         "state": "CA",
+         "summary": "Partly Cloudy",
+         "icon": "clear-day",
+         "precipProbability": 0,
+         "currentTemperature": 60,
+         "humidity": 0.68,
+         "windSpeed": 2.7,
+         "lowTemperature": 49,
+         "highTemperature": 62
+        }
+ ]
+}
+
