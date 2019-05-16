@@ -11,7 +11,7 @@ import MapKit
 
 class WeatherListViewController: UIViewController {
     // TO DO: wire up your table view found in Main.storyboard
-
+    @IBOutlet var tableView: UITableView!
     
     public static let weatherCellID = String(describing: WeatherCell.self)
     public static let weatherListSectionHeaderID = String(describing: WeatherListSectionHeaderView.self)
@@ -26,7 +26,7 @@ class WeatherListViewController: UIViewController {
         
         // TO DO: register a reuse identifier for your cell
         let cellNib = UINib(nibName: String(describing: WeatherCell.self), bundle: nil)
-        tableView.register(cellNib, forCellReuseIdentifier: "")
+        tableView.register(cellNib, forCellReuseIdentifier: "weatherCell")
         
         tableView.dataSource = dataSource
         tableView.delegate = dataSource
@@ -40,7 +40,7 @@ class WeatherListViewController: UIViewController {
         // TO DO: insert the name of a city found in the Data+Assets folder
         // Note: this line of code initiates the network call to the Dark Sky API
         // Duplicate this code to fetch data for more cities
-        dataSource.makeAPICall(cityName: "")
+        dataSource.makeAPICall(cityName: "NewYorkCity")
     }
 }
 

@@ -21,11 +21,11 @@ class WeatherListViewController: UIViewController {
         super.viewDidLoad()
         
         let headerNib = UINib(nibName: String(describing: WeatherListSectionHeaderView.self), bundle: nil)
-        tableView.register(headerNib, forHeaderFooterViewReuseIdentifier: WeatherListViewController.weatherListSectionHeaderID)
+        UITableView.register(headerNib, forHeaderFooterViewReuseIdentifier: WeatherListViewController.weatherListSectionHeaderID)
         
         // TO DO: reuse identifier
         let cellNib = UINib(nibName: String(describing: WeatherCell.self), bundle: nil)
-        tableView.register(cellNib, forCellReuseIdentifier: "")
+        UITableView.register(cellNib, forCellReuseIdentifier: "weatherCell")
         
         tableView.dataSource = dataSource
         tableView.delegate = dataSource
